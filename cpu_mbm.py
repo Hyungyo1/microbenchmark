@@ -1,19 +1,9 @@
-from numa_alloc import numa_alloc_tensor, numa_free_tensor
 import torch
 import time
 import argparse
 import numpy as np
 import os
 import psutil
-
-def realloc_to_numa(tensor):
-    numa_tensor = numa_alloc_tensor(tensor.shape, tensor.dtype)
-    if numa_tensor is not None:
-        numa_tensor.copy_(tensor)
-        del tensor
-        return numa_tensor
-    else:
-        raise MemoryError("Fail to allocate CXL memory!")
 
 # Argument parsing
 parser = argparse.ArgumentParser(description="Matrix multiplication with optional settings.")
