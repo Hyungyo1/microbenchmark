@@ -23,7 +23,7 @@ iterations = args.iter
 warmup = args.warmup
 dtype = args.dtype
 
-data_type = torch.float16 if dtype == 'bfloat16' else torch.float16
+data_type = torch.bfloat16 if dtype == 'bfloat16' else torch.float16
 
 start_event = torch.cuda.Event(enable_timing=True)
 end_event = torch.cuda.Event(enable_timing=True)   
