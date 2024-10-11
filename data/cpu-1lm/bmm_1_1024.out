@@ -1,12 +1,12 @@
-Iteration 0: output data type: torch.bfloat16, Duration: 0.000136 seconds
-Iteration 1: output data type: torch.bfloat16, Duration: 0.000119 seconds
-Iteration 2: output data type: torch.bfloat16, Duration: 0.000293 seconds
-Iteration 3: output data type: torch.bfloat16, Duration: 0.000132 seconds
-Iteration 4: output data type: torch.bfloat16, Duration: 0.000120 seconds
-Iteration 5: output data type: torch.bfloat16, Duration: 0.000121 seconds
-Iteration 6: output data type: torch.bfloat16, Duration: 0.000118 seconds
-Iteration 7: output data type: torch.bfloat16, Duration: 0.000248 seconds
-Iteration 8: output data type: torch.bfloat16, Duration: 0.000124 seconds
-Iteration 9: output data type: torch.bfloat16, Duration: 0.000125 seconds
-Average Duration: 0.000125 seconds
-Throughput: 201.8224020391893 (GFLOPS)
+Iteration 0: output data type: torch.bfloat16, Duration: 0.000123 seconds
+Iteration 1: output data type: torch.bfloat16, Duration: 0.000128 seconds
+Iteration 2: output data type: torch.bfloat16, Duration: 0.000327 seconds
+Iteration 3: output data type: torch.bfloat16, Duration: 0.000121 seconds
+Iteration 4: output data type: torch.bfloat16, Duration: 0.000119 seconds
+Iteration 5: output data type: torch.bfloat16, Duration: 0.000139 seconds
+Iteration 6: output data type: torch.bfloat16, Duration: 0.000119 seconds
+Iteration 7: output data type: torch.bfloat16, Duration: 0.000281 seconds
+Iteration 8: output data type: torch.bfloat16, Duration: 0.000120 seconds
+Iteration 9: output data type: torch.bfloat16, Duration: 0.000115 seconds
+Average Duration: 0.000122 seconds
+Throughput: 206.76418465523213 (GFLOPS)
