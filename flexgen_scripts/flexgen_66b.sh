@@ -20,6 +20,4 @@ OMP_NUM_THREADS=40 numactl -m 0,1 -C 0-39 python -m flexgen.flex_opt --model fac
 
 OMP_NUM_THREADS=40 numactl -m 0,1 -C 0-39 python -m flexgen.flex_opt --model facebook/opt-66b --path _DUMMY_ --percent 0 100 0 100 0 100 --gpu-batch-size 100 --num-gpu-batches 9 --prompt-len 32 --gen-len 32 --offload-dir ./ --cpu-cache-compute --pin-weight 0 &> "./opt66b_32_32_b=900.log"
 
-OMP_NUM_THREADS=40 numactl -m 0,1 -C 0-39 python -m flexgen.flex_opt --model facebook/opt-66b --path _DUMMY_ --percent 0 100 0 100 0 100 --gpu-batch-size 100 --num-gpu-batches 9 --prompt-len 32 --gen-len 256 --offload-dir ./ --cpu-cache-compute --pin-weight 0 &> "./opt66b_32_256_b=900.log"
-
 
