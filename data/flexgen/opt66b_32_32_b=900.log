@@ -1,0 +1,18 @@
+/scale/cal/home-interns/younjoo0614/anaconda3/envs/flexgen/lib/python3.10/site-packages/torch/__init__.py:836: FutureWarning: `torch.distributed.reduce_op` is deprecated, please use `torch.distributed.ReduceOp` instead
+  return isinstance(obj, torch.Tensor)
+/scale/cal/home-interns/younjoo0614/nskim/FlexiGen/flexgen/utils.py:132: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  data_ptr = tensor.storage().data_ptr()
+<run_flexgen>: args.model: facebook/opt-66b
+model size: 122.375 GB, cache size: 126.562 GB, hidden size (prefill): 0.989 GB
+init weight...
+warmup - generate
+benchmark - generate
+TorchDevice: cuda:0
+  cur_mem: 0.0312 GB,  peak_mem: 2.8764 GB
+TorchDevice: cpu
+  cur_mem: 123.2755 GB,  peak_mem: 0.0000 GB
+model size: 122.375 GB	cache size: 126.562 GB	hidden size (p): 0.989 GB
+peak gpu mem: 2.876 GB	projected: False
+prefill latency: 15.968 s	prefill throughput: 1803.622 token/s
+decode latency: 444.499 s	decode throughput: 62.767 token/s
+total latency: 460.467 s	total throughput: 62.545 token/s
