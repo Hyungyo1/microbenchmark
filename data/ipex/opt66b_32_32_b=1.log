@@ -1,0 +1,88 @@
+/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:266: UserWarning: Device capability of ccl unspecified, assuming `cpu` and `cuda`. Please specify it via the `devices` argument of `register_backend`.
+  warnings.warn(
+Namespace(model_id='/home/storage/opt-66b/', dtype='bfloat16', input_tokens='32', max_new_tokens=32, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=True, gpu_percentage=0, num_minibatch=1, enable_cxl=True)
+Warning: Cannot load xpu CCL. CCL doesn't work for XPU device
+[2024-10-14 00:28:12,470] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:20,  1.33it/s]Loading checkpoint shards:   7%|▋         | 2/28 [00:01<00:18,  1.43it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:02<00:19,  1.30it/s]Loading checkpoint shards:  14%|█▍        | 4/28 [00:02<00:17,  1.40it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:03<00:16,  1.39it/s]Loading checkpoint shards:  21%|██▏       | 6/28 [00:04<00:17,  1.25it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:05<00:15,  1.36it/s]Loading checkpoint shards:  29%|██▊       | 8/28 [00:05<00:13,  1.45it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:06<00:12,  1.55it/s]Loading checkpoint shards:  36%|███▌      | 10/28 [00:06<00:11,  1.64it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:07<00:10,  1.63it/s]Loading checkpoint shards:  43%|████▎     | 12/28 [00:08<00:09,  1.62it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:08<00:09,  1.57it/s]Loading checkpoint shards:  50%|█████     | 14/28 [00:09<00:10,  1.35it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:10<00:10,  1.27it/s]Loading checkpoint shards:  57%|█████▋    | 16/28 [00:11<00:09,  1.33it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:11<00:07,  1.42it/s]Loading checkpoint shards:  64%|██████▍   | 18/28 [00:12<00:07,  1.40it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:13<00:06,  1.49it/s]Loading checkpoint shards:  71%|███████▏  | 20/28 [00:13<00:05,  1.45it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:14<00:04,  1.45it/s]Loading checkpoint shards:  79%|███████▊  | 22/28 [00:15<00:04,  1.41it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:16<00:03,  1.42it/s]Loading checkpoint shards:  86%|████████▌ | 24/28 [00:16<00:02,  1.45it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:17<00:01,  1.57it/s]Loading checkpoint shards:  93%|█████████▎| 26/28 [00:17<00:01,  1.60it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:18<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:18<00:00,  2.01it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:18<00:00,  1.50it/s]
+[INFO] SINGLE_INSTANCE MODE.
+/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+ipex.llm.optimize has set the optimized or quantization model for model.generate()
+---- Prompt size: 32
+Prefill
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have funFORM clarifyBemeFORM halt rect HUGE reportedly FanCHQ discontndumFORM reportedly HUGE eat signals campaigned HUGE Xavierumboij rod eatFORMmond urinary agreement resist rod Bolt'] [32]
+Iteration: 0, Time: 35.125453 sec
+Prefill
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have funFORM clarifyBemeFORM halt rect HUGE reportedly FanCHQ discontndumFORM reportedly HUGE eat signals campaigned HUGE Xavierumboij rod eatFORMmond urinary agreement resist rod Bolt'] [32]
+Iteration: 1, Time: 32.708565 sec
+
+ ---------- Summary: ----------
+Inference latency: 32.709 sec.
+First token average latency: 1.119 sec.
+Average 2... latency: 1.019 sec.
+P90 2... latency: 1.021 sec.
+P99 2... latency: 1.021 sec.
+LLM RUNTIME INFO: running model geneartion...
+LLM RUNTIME INFO: Finished successfully.

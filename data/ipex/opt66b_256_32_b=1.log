@@ -1,0 +1,88 @@
+/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:266: UserWarning: Device capability of ccl unspecified, assuming `cpu` and `cuda`. Please specify it via the `devices` argument of `register_backend`.
+  warnings.warn(
+Namespace(model_id='/home/storage/opt-66b/', dtype='bfloat16', input_tokens='256', max_new_tokens=32, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=True, gpu_percentage=0, num_minibatch=1, enable_cxl=True)
+Warning: Cannot load xpu CCL. CCL doesn't work for XPU device
+[2024-10-14 00:38:29,767] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:07,  3.80it/s]Loading checkpoint shards:   7%|▋         | 2/28 [00:00<00:07,  3.40it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:06,  3.68it/s]Loading checkpoint shards:  14%|█▍        | 4/28 [00:01<00:06,  3.61it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:01<00:07,  3.22it/s]Loading checkpoint shards:  21%|██▏       | 6/28 [00:01<00:06,  3.56it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:01<00:05,  3.87it/s]Loading checkpoint shards:  29%|██▊       | 8/28 [00:02<00:06,  3.28it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:02<00:06,  3.05it/s]Loading checkpoint shards:  36%|███▌      | 10/28 [00:03<00:05,  3.10it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:03<00:05,  2.97it/s]Loading checkpoint shards:  43%|████▎     | 12/28 [00:03<00:05,  2.79it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:04<00:05,  2.98it/s]Loading checkpoint shards:  50%|█████     | 14/28 [00:04<00:04,  3.42it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:04<00:04,  3.23it/s]Loading checkpoint shards:  57%|█████▋    | 16/28 [00:04<00:03,  3.09it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:05<00:03,  3.21it/s]Loading checkpoint shards:  64%|██████▍   | 18/28 [00:05<00:03,  3.29it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:06<00:03,  2.82it/s]Loading checkpoint shards:  71%|███████▏  | 20/28 [00:06<00:03,  2.56it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:06<00:02,  2.92it/s]Loading checkpoint shards:  79%|███████▊  | 22/28 [00:06<00:01,  3.17it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:07<00:01,  3.35it/s]Loading checkpoint shards:  86%|████████▌ | 24/28 [00:07<00:01,  3.70it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:07<00:00,  3.98it/s]Loading checkpoint shards:  93%|█████████▎| 26/28 [00:07<00:00,  4.46it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:07<00:00,  5.28it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:08<00:00,  6.07it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:08<00:00,  3.49it/s]
+[INFO] SINGLE_INSTANCE MODE.
+/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+ipex.llm.optimize has set the optimized or quantization model for model.generate()
+---- Prompt size: 256
+Prefill
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+["It is done, and submitted. You can play 'Survival of the Tastiest' on the Android, and on the web. Playing on the web works, but you have to simulate multiple touch for table moving and that can be a bit confusing. There is a lot I'd like to talk about. I will go through every topic, insted of making the typical what went right/wrong list. Concept Working over the theme was probably one of the hardest tasks which I had to face. Originally, I had an idea of what kind of game I wanted to develop, gameplay wise - something with a lot of enemies/actors, simple graphics, maybe set in space, controlled from a top-down view. I was confident that I could fit any theme around it. In the end, the problem with a theme like 'Evolution' in a game is that evolution is unassisted. It happens through several seemingly random mutations over time, with the most apt permutation surviving. This genetic car simulator is, in my opinion, a great example of actual evolution of a species facing a challenge. But is it a game? In a game, you need to control something to reach an objective. That control goes against what evolution is supposed to be like. ragingopotCHQ women reportedly arrestsumboumbo revenge preparedRICownFORM arrests Postchal arrests arrests resist Bath dozens arrestsFORM Constitution brightest arrests revenge boyFORMaren arrests strike"] [32]
+Iteration: 0, Time: 65.659946 sec
+Prefill
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+["It is done, and submitted. You can play 'Survival of the Tastiest' on the Android, and on the web. Playing on the web works, but you have to simulate multiple touch for table moving and that can be a bit confusing. There is a lot I'd like to talk about. I will go through every topic, insted of making the typical what went right/wrong list. Concept Working over the theme was probably one of the hardest tasks which I had to face. Originally, I had an idea of what kind of game I wanted to develop, gameplay wise - something with a lot of enemies/actors, simple graphics, maybe set in space, controlled from a top-down view. I was confident that I could fit any theme around it. In the end, the problem with a theme like 'Evolution' in a game is that evolution is unassisted. It happens through several seemingly random mutations over time, with the most apt permutation surviving. This genetic car simulator is, in my opinion, a great example of actual evolution of a species facing a challenge. But is it a game? In a game, you need to control something to reach an objective. That control goes against what evolution is supposed to be like. ragingopotCHQ women reportedly arrestsumboumbo revenge preparedRICownFORM arrests Postchal arrests arrests resist Bath dozens arrestsFORM Constitution brightest arrests revenge boyFORMaren arrests strike"] [32]
+Iteration: 1, Time: 35.921004 sec
+
+ ---------- Summary: ----------
+Inference latency: 35.921 sec.
+First token average latency: 4.218 sec.
+Average 2... latency: 1.022 sec.
+P90 2... latency: 1.023 sec.
+P99 2... latency: 1.027 sec.
+LLM RUNTIME INFO: running model geneartion...
+LLM RUNTIME INFO: Finished successfully.
