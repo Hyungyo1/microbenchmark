@@ -2,8 +2,8 @@
   warnings.warn(
 Namespace(model_id='/home/storage/opt-66b/', dtype='bfloat16', input_tokens='32', max_new_tokens=256, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=False, gpu_percentage=55, num_minibatch=1, enable_cxl=True)
 Warning: Cannot load xpu CCL. CCL doesn't work for XPU device
-[2024-10-14 14:23:46,894] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
-Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:03,  7.07it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:02,  9.54it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:00<00:02, 10.22it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:00<00:01, 10.52it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:00<00:01, 10.66it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:01<00:01, 10.77it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:01<00:01, 10.83it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:01<00:01, 10.87it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:01<00:01, 10.90it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:01<00:00, 10.91it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:01<00:00, 10.89it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:02<00:00, 10.91it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:02<00:00, 10.92it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:02<00:00, 10.91it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:02<00:00, 10.72it/s]
+[2024-10-15 01:45:38,997] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:03,  7.30it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:02, 10.07it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:00<00:02, 10.81it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:00<00:01, 11.11it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:00<00:01, 11.29it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:00<00:01, 11.43it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:01<00:01, 11.51it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:01<00:01, 11.57it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:01<00:00, 11.62it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:01<00:00, 11.64it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:01<00:00, 11.64it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:02<00:00, 11.63it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:02<00:00, 11.64it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:02<00:00, 11.64it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:02<00:00, 11.41it/s]
 [INFO] SINGLE_INSTANCE MODE.
 /home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
   warnings.warn(
@@ -266,7 +266,7 @@ Decoding
 Decoding
 Decoding
 ['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have fun revenge trustee gambling arrests discontMind appearance discont resist arrests discont appearance chlor Ensure arbitration campaigned appearance workshop appearance discontB chromosomeB discont patientsllochal discont inspirationeme chicken 218 discont revenge LandB consultationmond patients KilledshipB strike strike Defendant discont Bolt conc resistB discontonly Bolt chlor celebritiesotor arrests patients discontplex arrests resist signals signals discontBchal deprived RO revenge workshop discontB resistB Gru patients Lennon passengersBchal arrests resist passengers resist resist ZealB 630 chlor Lennon resistB revenge discontB deprived CallingB AnthemBB chlorndum collaborative resistES arrests Gru Zeal chlorB arrests discont Ensureumbomag revengeESB discont Constitution IPO calendar Areas choiceES revenge celebrities raging discontESES McCabechalmond discontES arrests chlor chlor discontmond destroyed chromosomeCHQ discont flourished minister arrestsES Ensure rock discontESapaB destroyedB Loot discontES boytskyB discont patients resist destroyed consultation NavyitheLLOW discont discontBpp RO Stone chlorESys revenge arrests revenge himchal Cle bomb chlorES chlorB opinionCHQ violence halt arrests violenceES chlor discont arrests consultation discont chlorESBES Chero advisers deprived revenge discont Ensure opinion discontES rock patientsB minister destroyedLOS Bal travels FederationESapaES resist revengeES discont discont arrestsemelinear arrests fold Bal Killed opinion discont resist resist rod chlor bombCHQ discont GeorgianES IPO boyribly'] [256]
-Iteration: 0, Time: 98.857222 sec
+Iteration: 0, Time: 95.220524 sec
 Prefill
 Decoding
 Decoding
@@ -524,13 +524,13 @@ Decoding
 Decoding
 Decoding
 ['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have fun revenge trustee gambling arrests discontMind appearance discont resist arrests discont appearance chlor Ensure arbitration campaigned appearance workshop appearance discontB chromosomeB discont patientsllochal discont inspirationeme chicken 218 discont revenge LandB consultationmond patients KilledshipB strike strike Defendant discont Bolt conc resistB discontonly Bolt chlor celebritiesotor arrests patients discontplex arrests resist signals signals discontBchal deprived RO revenge workshop discontB resistB Gru patients Lennon passengersBchal arrests resist passengers resist resist ZealB 630 chlor Lennon resistB revenge discontB deprived CallingB AnthemBB chlorndum collaborative resistES arrests Gru Zeal chlorB arrests discont Ensureumbomag revengeESB discont Constitution IPO calendar Areas choiceES revenge celebrities raging discontESES McCabechalmond discontES arrests chlor chlor discontmond destroyed chromosomeCHQ discont flourished minister arrestsES Ensure rock discontESapaB destroyedB Loot discontES boytskyB discont patients resist destroyed consultation NavyitheLLOW discont discontBpp RO Stone chlorESys revenge arrests revenge himchal Cle bomb chlorES chlorB opinionCHQ violence halt arrests violenceES chlor discont arrests consultation discont chlorESBES Chero advisers deprived revenge discont Ensure opinion discontES rock patientsB minister destroyedLOS Bal travels FederationESapaES resist revengeES discont discont arrestsemelinear arrests fold Bal Killed opinion discont resist resist rod chlor bombCHQ discont GeorgianES IPO boyribly'] [256]
-Iteration: 1, Time: 92.245350 sec
+Iteration: 1, Time: 88.730582 sec
 
  ---------- Summary: ----------
-Inference latency: 92.245 sec.
-First token average latency: 0.383 sec.
-Average 2... latency: 0.360 sec.
-P90 2... latency: 0.361 sec.
-P99 2... latency: 0.362 sec.
+Inference latency: 88.731 sec.
+First token average latency: 0.375 sec.
+Average 2... latency: 0.346 sec.
+P90 2... latency: 0.348 sec.
+P99 2... latency: 0.348 sec.
 LLM RUNTIME INFO: running model geneartion...
 LLM RUNTIME INFO: Finished successfully.

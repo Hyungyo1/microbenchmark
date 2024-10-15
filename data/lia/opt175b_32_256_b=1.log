@@ -1,38 +1,536 @@
 /home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:266: UserWarning: Device capability of ccl unspecified, assuming `cpu` and `cuda`. Please specify it via the `devices` argument of `register_backend`.
   warnings.warn(
-Namespace(model_id='/home/storage/opt-175b/', dtype='bfloat16', input_tokens='32', max_new_tokens=256, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=False, gpu_percentage=24, num_minibatch=1, enable_cxl=True)
+Namespace(model_id='/home/storage/opt-175b/', dtype='bfloat16', input_tokens='32', max_new_tokens=256, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=False, gpu_percentage=22, num_minibatch=1, enable_cxl=True)
 Warning: Cannot load xpu CCL. CCL doesn't work for XPU device
-[2024-10-14 15:00:20,979] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
-Loading checkpoint shards:   0%|          | 0/73 [00:00<?, ?it/s]Loading checkpoint shards:   1%|▏         | 1/73 [00:00<00:09,  7.39it/s]Loading checkpoint shards:   4%|▍         | 3/73 [00:00<00:06, 10.59it/s]Loading checkpoint shards:   7%|▋         | 5/73 [00:00<00:05, 11.49it/s]Loading checkpoint shards:  10%|▉         | 7/73 [00:00<00:05, 11.88it/s]Loading checkpoint shards:  12%|█▏        | 9/73 [00:00<00:05, 12.11it/s]Loading checkpoint shards:  15%|█▌        | 11/73 [00:00<00:05, 12.24it/s]Loading checkpoint shards:  18%|█▊        | 13/73 [00:01<00:04, 12.33it/s]Loading checkpoint shards:  21%|██        | 15/73 [00:01<00:04, 12.39it/s]Loading checkpoint shards:  23%|██▎       | 17/73 [00:01<00:04, 12.40it/s]Loading checkpoint shards:  26%|██▌       | 19/73 [00:01<00:04, 12.47it/s]Loading checkpoint shards:  29%|██▉       | 21/73 [00:01<00:04, 12.45it/s]Loading checkpoint shards:  32%|███▏      | 23/73 [00:01<00:04, 12.01it/s]Loading checkpoint shards:  34%|███▍      | 25/73 [00:02<00:04, 11.76it/s]Loading checkpoint shards:  37%|███▋      | 27/73 [00:02<00:03, 11.52it/s]Loading checkpoint shards:  40%|███▉      | 29/73 [00:02<00:03, 11.34it/s]Loading checkpoint shards:  42%|████▏     | 31/73 [00:02<00:03, 11.24it/s]Loading checkpoint shards:  45%|████▌     | 33/73 [00:02<00:03, 11.17it/s]Loading checkpoint shards:  48%|████▊     | 35/73 [00:03<00:03, 11.14it/s]Loading checkpoint shards:  51%|█████     | 37/73 [00:03<00:03, 11.14it/s]Loading checkpoint shards:  53%|█████▎    | 39/73 [00:03<00:03, 11.09it/s]Loading checkpoint shards:  56%|█████▌    | 41/73 [00:03<00:02, 11.02it/s]Loading checkpoint shards:  59%|█████▉    | 43/73 [00:03<00:02, 11.03it/s]Loading checkpoint shards:  62%|██████▏   | 45/73 [00:03<00:02, 11.04it/s]Loading checkpoint shards:  64%|██████▍   | 47/73 [00:04<00:02, 11.05it/s]Loading checkpoint shards:  67%|██████▋   | 49/73 [00:04<00:02, 11.05it/s]Loading checkpoint shards:  70%|██████▉   | 51/73 [00:04<00:01, 11.05it/s]Loading checkpoint shards:  73%|███████▎  | 53/73 [00:04<00:01, 11.05it/s]Loading checkpoint shards:  75%|███████▌  | 55/73 [00:04<00:01, 11.06it/s]Loading checkpoint shards:  78%|███████▊  | 57/73 [00:04<00:01, 11.32it/s]Loading checkpoint shards:  81%|████████  | 59/73 [00:05<00:01, 11.63it/s]Loading checkpoint shards:  84%|████████▎ | 61/73 [00:05<00:01, 11.90it/s]Loading checkpoint shards:  86%|████████▋ | 63/73 [00:05<00:00, 12.06it/s]Loading checkpoint shards:  89%|████████▉ | 65/73 [00:05<00:00, 12.19it/s]Loading checkpoint shards:  92%|█████████▏| 67/73 [00:05<00:00, 12.30it/s]Loading checkpoint shards:  95%|█████████▍| 69/73 [00:05<00:00, 12.37it/s]Loading checkpoint shards:  97%|█████████▋| 71/73 [00:06<00:00, 12.41it/s]Loading checkpoint shards: 100%|██████████| 73/73 [00:06<00:00, 12.49it/s]Loading checkpoint shards: 100%|██████████| 73/73 [00:06<00:00, 11.66it/s]
+[2024-10-15 02:22:08,466] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards:   0%|          | 0/73 [00:00<?, ?it/s]Loading checkpoint shards:   1%|▏         | 1/73 [00:00<00:09,  7.24it/s]Loading checkpoint shards:   4%|▍         | 3/73 [00:00<00:06, 10.26it/s]Loading checkpoint shards:   7%|▋         | 5/73 [00:00<00:06, 11.11it/s]Loading checkpoint shards:  10%|▉         | 7/73 [00:00<00:05, 11.51it/s]Loading checkpoint shards:  12%|█▏        | 9/73 [00:00<00:05, 11.71it/s]Loading checkpoint shards:  15%|█▌        | 11/73 [00:00<00:05, 11.80it/s]Loading checkpoint shards:  18%|█▊        | 13/73 [00:01<00:05, 11.88it/s]Loading checkpoint shards:  21%|██        | 15/73 [00:01<00:04, 11.88it/s]Loading checkpoint shards:  23%|██▎       | 17/73 [00:01<00:04, 11.91it/s]Loading checkpoint shards:  26%|██▌       | 19/73 [00:01<00:04, 11.92it/s]Loading checkpoint shards:  29%|██▉       | 21/73 [00:01<00:04, 11.96it/s]Loading checkpoint shards:  32%|███▏      | 23/73 [00:01<00:04, 11.98it/s]Loading checkpoint shards:  34%|███▍      | 25/73 [00:02<00:04, 11.99it/s]Loading checkpoint shards:  37%|███▋      | 27/73 [00:02<00:03, 12.01it/s]Loading checkpoint shards:  40%|███▉      | 29/73 [00:02<00:03, 12.03it/s]Loading checkpoint shards:  42%|████▏     | 31/73 [00:02<00:03, 12.06it/s]Loading checkpoint shards:  45%|████▌     | 33/73 [00:02<00:03, 12.04it/s]Loading checkpoint shards:  48%|████▊     | 35/73 [00:02<00:03, 12.03it/s]Loading checkpoint shards:  51%|█████     | 37/73 [00:03<00:02, 12.05it/s]Loading checkpoint shards:  53%|█████▎    | 39/73 [00:03<00:02, 12.00it/s]Loading checkpoint shards:  56%|█████▌    | 41/73 [00:03<00:02, 12.01it/s]Loading checkpoint shards:  59%|█████▉    | 43/73 [00:03<00:02, 12.04it/s]Loading checkpoint shards:  62%|██████▏   | 45/73 [00:03<00:02, 12.04it/s]Loading checkpoint shards:  64%|██████▍   | 47/73 [00:03<00:02, 12.03it/s]Loading checkpoint shards:  67%|██████▋   | 49/73 [00:04<00:01, 12.02it/s]Loading checkpoint shards:  70%|██████▉   | 51/73 [00:04<00:01, 12.03it/s]Loading checkpoint shards:  73%|███████▎  | 53/73 [00:04<00:01, 12.02it/s]Loading checkpoint shards:  75%|███████▌  | 55/73 [00:04<00:01, 12.01it/s]Loading checkpoint shards:  78%|███████▊  | 57/73 [00:04<00:01, 12.00it/s]Loading checkpoint shards:  81%|████████  | 59/73 [00:04<00:01, 12.02it/s]Loading checkpoint shards:  84%|████████▎ | 61/73 [00:05<00:00, 12.05it/s]Loading checkpoint shards:  86%|████████▋ | 63/73 [00:05<00:00, 12.03it/s]Loading checkpoint shards:  89%|████████▉ | 65/73 [00:05<00:00, 12.04it/s]Loading checkpoint shards:  92%|█████████▏| 67/73 [00:05<00:00, 12.06it/s]Loading checkpoint shards:  95%|█████████▍| 69/73 [00:05<00:00, 12.06it/s]Loading checkpoint shards:  97%|█████████▋| 71/73 [00:05<00:00, 12.06it/s]Loading checkpoint shards: 100%|██████████| 73/73 [00:06<00:00, 12.11it/s]Loading checkpoint shards: 100%|██████████| 73/73 [00:06<00:00, 11.93it/s]
 [INFO] SINGLE_INSTANCE MODE.
 /home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
   warnings.warn(
 ipex.llm.optimize has set the optimized or quantization model for model.generate()
 ---- Prompt size: 32
 Prefill
-Traceback (most recent call last):
-  File "/home/ubuntu/llm/single_instance/run_generation.py", line 319, in <module>
-    output = model.generate(input_ids, **generate_kwargs)
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/utils.py", line 1545, in generate
-    return self.greedy_search(
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/intel_extension_for_pytorch/transformers/generation/greedy_search.py", line 302, in _greedy_search
-    outputs = self(
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1577, in _call_impl
-    result = forward_call(*args, **kwargs)
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/intel_extension_for_pytorch/transformers/models/reference/models.py", line 404, in OPTForCausalLM_forward
-    outputs = self.model.decoder(
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1536, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 1184, in forward
-    move_gpu_layer(self.layers[i])
-  File "/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/models/opt/modeling_opt.py", line 267, in move_gpu_layer
-    layers_ref.mlp_linear_add.weight = nn.Parameter(layers_ref.mlp_linear_add.linear.weight.to('cuda').permute([0, 3, 1, 2, 4]).contiguous().view(new_dim, 4 * new_dim))
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.12 GiB. GPU 
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have fun temper Yor tension vicious Qataridget vicious figure upside LivesPg wakechancegio Disabledchance representedeeea raiding There surfchance There possibleILS BTC Knugu Species big aren!]ea rainbow Thereと represented statedchance BTC wrote Toothgioea vicious independentchancee youngster db statedatories independent represented Simmons BTC Tooth There!]chance Prime grewkese 1913 stated luck wake Simmonschanceonia Petra Wool represented redevelopidget friend Wool represented az Tim428 transporting Qatar WARNING Livesician 1960 independent BTC Wool valuation 1960 charity tense represented that++ statedea There escapes Sony representedchanceeaeaidget Duke 1960 321 Duke 288 statede stated representedInternationalosh littered 1865 BTC vicious Dukeimon vicious BTC Investorographical upside composite Sile hallmark tense statede Qatar Lives Golf broader transportingfilmsensitive minutesatu transporting vicious notify BTCInternationaleae brun transporting Livesados stated watching broader Petra thefts lurking beneficiaries represented Postal vicious stated Duke transporting stated Theree herds curse az rebutt Sony mistakenlychance represented Theree Prime representedidget Therechance theftsigationea Wooleatures Whatevere Employment luck Challenge pint represented PL There Qatar Yor WARNING stated intend Thereoniaeclusocytes Prime failureek notifyENSE Primeea vicious Lime strikes Petra stated There upside statedclus Prime bloggere Prime notifyoridgete Hole figure engaging possible Lives represented Led There Lime thate luck transportinggio transporting Simmons PrimeXXX'] [256]
+Iteration: 0, Time: 860.017471 sec
+Prefill
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have fun temper Yor tension vicious Qataridget vicious figure upside LivesPg wakechancegio Disabledchance representedeeea raiding There surfchance There possibleILS BTC Knugu Species big aren!]ea rainbow Thereと represented statedchance BTC wrote Toothgioea vicious independentchancee youngster db statedatories independent represented Simmons BTC Tooth There!]chance Prime grewkese 1913 stated luck wake Simmonschanceonia Petra Wool represented redevelopidget friend Wool represented az Tim428 transporting Qatar WARNING Livesician 1960 independent BTC Wool valuation 1960 charity tense represented that++ statedea There escapes Sony representedchanceeaeaidget Duke 1960 321 Duke 288 statede stated representedInternationalosh littered 1865 BTC vicious Dukeimon vicious BTC Investorographical upside composite Sile hallmark tense statede Qatar Lives Golf broader transportingfilmsensitive minutesatu transporting vicious notify BTCInternationaleae brun transporting Livesados stated watching broader Petra thefts lurking beneficiaries represented Postal vicious stated Duke transporting stated Theree herds curse az rebutt Sony mistakenlychance represented Theree Prime representedidget Therechance theftsigationea Wooleatures Whatevere Employment luck Challenge pint represented PL There Qatar Yor WARNING stated intend Thereoniaeclusocytes Prime failureek notifyENSE Primeea vicious Lime strikes Petra stated There upside statedclus Prime bloggere Prime notifyoridgete Hole figure engaging possible Lives represented Led There Lime thate luck transportinggio transporting Simmons PrimeXXX'] [256]
+Iteration: 1, Time: 533.331077 sec
+
+ ---------- Summary: ----------
+Inference latency: 533.331 sec.
+First token average latency: 2.217 sec.
+Average 2... latency: 2.083 sec.
+P90 2... latency: 2.086 sec.
+P99 2... latency: 2.088 sec.
 LLM RUNTIME INFO: running model geneartion...
-LLM RUNTIME ERROR: Running generation task failed. Quit.
+LLM RUNTIME INFO: Finished successfully.
