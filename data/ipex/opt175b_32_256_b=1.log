@@ -1,0 +1,536 @@
+/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:266: UserWarning: Device capability of ccl unspecified, assuming `cpu` and `cuda`. Please specify it via the `devices` argument of `register_backend`.
+  warnings.warn(
+Namespace(model_id='/home/storage/opt-175b/', dtype='bfloat16', input_tokens='32', max_new_tokens=256, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=False, gpu_percentage=0, num_minibatch=1, enable_cxl=True)
+Warning: Cannot load xpu CCL. CCL doesn't work for XPU device
+[2024-10-14 20:55:54,467] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards:   0%|          | 0/73 [00:00<?, ?it/s]Loading checkpoint shards:   1%|▏         | 1/73 [00:00<00:11,  6.33it/s]Loading checkpoint shards:   4%|▍         | 3/73 [00:00<00:07,  9.71it/s]Loading checkpoint shards:   7%|▋         | 5/73 [00:00<00:06, 10.75it/s]Loading checkpoint shards:  10%|▉         | 7/73 [00:00<00:05, 11.22it/s]Loading checkpoint shards:  12%|█▏        | 9/73 [00:00<00:05, 11.48it/s]Loading checkpoint shards:  15%|█▌        | 11/73 [00:00<00:05, 11.64it/s]Loading checkpoint shards:  18%|█▊        | 13/73 [00:01<00:05, 11.72it/s]Loading checkpoint shards:  21%|██        | 15/73 [00:01<00:04, 11.80it/s]Loading checkpoint shards:  23%|██▎       | 17/73 [00:01<00:04, 11.90it/s]Loading checkpoint shards:  26%|██▌       | 19/73 [00:01<00:04, 12.00it/s]Loading checkpoint shards:  29%|██▉       | 21/73 [00:01<00:04, 11.96it/s]Loading checkpoint shards:  32%|███▏      | 23/73 [00:01<00:04, 11.96it/s]Loading checkpoint shards:  34%|███▍      | 25/73 [00:02<00:03, 12.04it/s]Loading checkpoint shards:  37%|███▋      | 27/73 [00:02<00:03, 12.09it/s]Loading checkpoint shards:  40%|███▉      | 29/73 [00:02<00:03, 12.12it/s]Loading checkpoint shards:  42%|████▏     | 31/73 [00:02<00:03, 12.15it/s]Loading checkpoint shards:  45%|████▌     | 33/73 [00:02<00:03, 12.16it/s]Loading checkpoint shards:  48%|████▊     | 35/73 [00:02<00:03, 12.16it/s]Loading checkpoint shards:  51%|█████     | 37/73 [00:03<00:02, 12.18it/s]Loading checkpoint shards:  53%|█████▎    | 39/73 [00:03<00:02, 12.19it/s]Loading checkpoint shards:  56%|█████▌    | 41/73 [00:03<00:02, 12.17it/s]Loading checkpoint shards:  59%|█████▉    | 43/73 [00:03<00:02, 12.18it/s]Loading checkpoint shards:  62%|██████▏   | 45/73 [00:03<00:02, 12.14it/s]Loading checkpoint shards:  64%|██████▍   | 47/73 [00:03<00:02, 12.16it/s]Loading checkpoint shards:  67%|██████▋   | 49/73 [00:04<00:01, 12.17it/s]Loading checkpoint shards:  70%|██████▉   | 51/73 [00:04<00:01, 12.16it/s]Loading checkpoint shards:  73%|███████▎  | 53/73 [00:04<00:01, 12.17it/s]Loading checkpoint shards:  75%|███████▌  | 55/73 [00:04<00:01, 12.19it/s]Loading checkpoint shards:  78%|███████▊  | 57/73 [00:04<00:01, 12.19it/s]Loading checkpoint shards:  81%|████████  | 59/73 [00:04<00:01, 12.16it/s]Loading checkpoint shards:  84%|████████▎ | 61/73 [00:05<00:00, 12.18it/s]Loading checkpoint shards:  86%|████████▋ | 63/73 [00:05<00:00, 12.18it/s]Loading checkpoint shards:  89%|████████▉ | 65/73 [00:05<00:00, 12.17it/s]Loading checkpoint shards:  92%|█████████▏| 67/73 [00:05<00:00, 12.19it/s]Loading checkpoint shards:  95%|█████████▍| 69/73 [00:05<00:00, 12.16it/s]Loading checkpoint shards:  97%|█████████▋| 71/73 [00:05<00:00, 12.16it/s]Loading checkpoint shards: 100%|██████████| 73/73 [00:06<00:00, 12.21it/s]Loading checkpoint shards: 100%|██████████| 73/73 [00:06<00:00, 11.97it/s]
+[INFO] SINGLE_INSTANCE MODE.
+/home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+ipex.llm.optimize has set the optimized or quantization model for model.generate()
+---- Prompt size: 32
+Prefill
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have fun discussing wrote protestse notifychance grew>) chronic anonym Fullyea IC strikes thefts transportingicals increasing luck02 vicious thefts 185ea Dri represented vicious beneficiaries WARNING BTC revolutionary refusing star transporting represented omega vicious Duke tension whollyancy vicious transporting thefts womanchance WARNING tension pol transporting Wool vicious thefts Everyoneische pile going concerns transporting vicious vicious thefts theftsILS upside Prime vicious beneficiariesILS transporting ThereILS thefts stated luck Woolea KB luck affordable vicious affordablerim pol revolutionaryILS figure Prime vicious viciousroadea widespread salBOOK Bars Cra Prime available stated Bars vicious vicioushoeaInternational wonderse pursuedBullPic transporting viciousea Settings viciouschance viciousrett vicious WARNING BTC vicious vicious Struct DeV BTC vicious frienddaysidget WARNING Customers Latinos There WARNING 1960 Fiveea vicious wonders BTC pl discussing There vicious There BTC vicious!] transporting Honestlychance mundane Sheila permitting tense wonders wonders screamingInternational worse joint++ James Investor Wool vicious intend Stro Boldadosea vicious doubling creator European statedchanceische mundane vicious roundup There charity roundupjar Led figure roundup composite vicious viciouschance stated Postal duties vicious transporting vicious Farm There vicious++ squeeze vicious Bars Whatever thefts Launcher vicious level thefts thefts vicious affordable++ Admiral theftsgio Honestly BTC failure thefts There affordable possibleILS 276 figure failure Led saddened avoided PetraWeuras moral vicious disproportionately Example stated Simmons represented Simmons db� levelchance thefts tense permitting Qatar Prime vicious WARNING'] [256]
+Iteration: 0, Time: 673.798437 sec
+Prefill
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+Decoding
+['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have fun discussing wrote protestse notifychance grew>) chronic anonym Fullyea IC strikes thefts transportingicals increasing luck02 vicious thefts 185ea Dri represented vicious beneficiaries WARNING BTC revolutionary refusing star transporting represented omega vicious Duke tension whollyancy vicious transporting thefts womanchance WARNING tension pol transporting Wool vicious thefts Everyoneische pile going concerns transporting vicious vicious thefts theftsILS upside Prime vicious beneficiariesILS transporting ThereILS thefts stated luck Woolea KB luck affordable vicious affordablerim pol revolutionaryILS figure Prime vicious viciousroadea widespread salBOOK Bars Cra Prime available stated Bars vicious vicioushoeaInternational wonderse pursuedBullPic transporting viciousea Settings viciouschance viciousrett vicious WARNING BTC vicious vicious Struct DeV BTC vicious frienddaysidget WARNING Customers Latinos There WARNING 1960 Fiveea vicious wonders BTC pl discussing There vicious There BTC vicious!] transporting Honestlychance mundane Sheila permitting tense wonders wonders screamingInternational worse joint++ James Investor Wool vicious intend Stro Boldadosea vicious doubling creator European statedchanceische mundane vicious roundup There charity roundupjar Led figure roundup composite vicious viciouschance stated Postal duties vicious transporting vicious Farm There vicious++ squeeze vicious Bars Whatever thefts Launcher vicious level thefts thefts vicious affordable++ Admiral theftsgio Honestly BTC failure thefts There affordable possibleILS 276 figure failure Led saddened avoided PetraWeuras moral vicious disproportionately Example stated Simmons represented Simmons db� levelchance thefts tense permitting Qatar Prime vicious WARNING'] [256]
+Iteration: 1, Time: 616.671372 sec
+
+ ---------- Summary: ----------
+Inference latency: 616.671 sec.
+First token average latency: 2.548 sec.
+Average 2... latency: 2.408 sec.
+P90 2... latency: 2.415 sec.
+P99 2... latency: 2.433 sec.
+LLM RUNTIME INFO: running model geneartion...
+LLM RUNTIME INFO: Finished successfully.

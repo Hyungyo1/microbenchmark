@@ -1,9 +1,9 @@
 /home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:266: UserWarning: Device capability of ccl unspecified, assuming `cpu` and `cuda`. Please specify it via the `devices` argument of `register_backend`.
   warnings.warn(
-Namespace(model_id='/home/storage/opt-66b/', dtype='bfloat16', input_tokens='32', max_new_tokens=32, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=True, gpu_percentage=57, num_minibatch=1, enable_cxl=True)
+Namespace(model_id='/home/storage/opt-66b/', dtype='bfloat16', input_tokens='32', max_new_tokens=32, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=False, gpu_percentage=57, num_minibatch=1, enable_cxl=True)
 Warning: Cannot load xpu CCL. CCL doesn't work for XPU device
-[2024-10-13 10:08:45,319] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
-Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:04,  6.38it/s]Loading checkpoint shards:   7%|▋         | 2/28 [00:00<00:03,  7.74it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:03,  8.31it/s]Loading checkpoint shards:  14%|█▍        | 4/28 [00:00<00:02,  8.65it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:00<00:02,  8.82it/s]Loading checkpoint shards:  21%|██▏       | 6/28 [00:00<00:02,  8.91it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:00<00:02,  9.00it/s]Loading checkpoint shards:  29%|██▊       | 8/28 [00:00<00:02,  9.03it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:01<00:02,  9.05it/s]Loading checkpoint shards:  36%|███▌      | 10/28 [00:01<00:01,  9.10it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:01<00:01,  9.11it/s]Loading checkpoint shards:  43%|████▎     | 12/28 [00:01<00:01,  9.07it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:01<00:01,  9.12it/s]Loading checkpoint shards:  50%|█████     | 14/28 [00:01<00:01,  9.12it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:01<00:01,  9.11it/s]Loading checkpoint shards:  57%|█████▋    | 16/28 [00:01<00:01,  9.15it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:01<00:01,  8.31it/s]Loading checkpoint shards:  64%|██████▍   | 18/28 [00:02<00:01,  7.81it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:02<00:01,  7.52it/s]Loading checkpoint shards:  71%|███████▏  | 20/28 [00:02<00:01,  7.32it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:02<00:00,  7.18it/s]Loading checkpoint shards:  79%|███████▊  | 22/28 [00:02<00:00,  7.11it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:02<00:00,  6.99it/s]Loading checkpoint shards:  86%|████████▌ | 24/28 [00:02<00:00,  6.89it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:03<00:00,  6.86it/s]Loading checkpoint shards:  93%|█████████▎| 26/28 [00:03<00:00,  6.86it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:03<00:00,  6.82it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:03<00:00,  6.88it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:03<00:00,  7.88it/s]
+[2024-10-14 14:20:16,831] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:03,  7.10it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:02,  9.83it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:00<00:02, 10.58it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:00<00:01, 10.92it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:00<00:01,  9.89it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:01<00:01,  9.01it/s]Loading checkpoint shards:  43%|████▎     | 12/28 [00:01<00:01,  8.52it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:01<00:01,  8.07it/s]Loading checkpoint shards:  50%|█████     | 14/28 [00:01<00:01,  8.21it/s]Loading checkpoint shards:  57%|█████▋    | 16/28 [00:01<00:01,  9.22it/s]Loading checkpoint shards:  64%|██████▍   | 18/28 [00:01<00:01,  9.94it/s]Loading checkpoint shards:  71%|███████▏  | 20/28 [00:02<00:00, 10.41it/s]Loading checkpoint shards:  79%|███████▊  | 22/28 [00:02<00:00, 10.71it/s]Loading checkpoint shards:  86%|████████▌ | 24/28 [00:02<00:00, 10.91it/s]Loading checkpoint shards:  93%|█████████▎| 26/28 [00:02<00:00, 11.04it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:02<00:00, 11.23it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:02<00:00, 10.03it/s]
 [INFO] SINGLE_INSTANCE MODE.
 /home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
   warnings.warn(
@@ -42,7 +42,7 @@ Decoding
 Decoding
 Decoding
 ['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have fun revenge trustee gambling arrests discontMind appearance discont resist arrests discont appearance chlor Ensure arbitration campaigned appearance workshop appearance discontB chromosomeB discont patientsllochal discont inspirationeme chicken 218'] [32]
-Iteration: 0, Time: 23.249295 sec
+Iteration: 0, Time: 18.866735 sec
 Prefill
 Decoding
 Decoding
@@ -76,13 +76,13 @@ Decoding
 Decoding
 Decoding
 ['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have fun revenge trustee gambling arrests discontMind appearance discont resist arrests discont appearance chlor Ensure arbitration campaigned appearance workshop appearance discontB chromosomeB discont patientsllochal discont inspirationeme chicken 218'] [32]
-Iteration: 1, Time: 11.598896 sec
+Iteration: 1, Time: 11.000606 sec
 
  ---------- Summary: ----------
-Inference latency: 11.599 sec.
-First token average latency: 0.411 sec.
-Average 2... latency: 0.361 sec.
-P90 2... latency: 0.404 sec.
-P99 2... latency: 0.434 sec.
+Inference latency: 11.001 sec.
+First token average latency: 0.374 sec.
+Average 2... latency: 0.343 sec.
+P90 2... latency: 0.343 sec.
+P99 2... latency: 0.344 sec.
 LLM RUNTIME INFO: running model geneartion...
 LLM RUNTIME INFO: Finished successfully.
