@@ -2,8 +2,8 @@
   warnings.warn(
 Namespace(model_id='/home/storage/opt-66b/', dtype='bfloat16', input_tokens='32', max_new_tokens=256, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=False, gpu_percentage=0, num_minibatch=1, enable_cxl=True)
 Warning: Cannot load xpu CCL. CCL doesn't work for XPU device
-[2024-10-14 20:16:28,500] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
-Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:03,  7.12it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:02,  9.72it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:00<00:02, 10.49it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:00<00:01, 10.83it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:00<00:01, 11.02it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:01<00:01, 11.14it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:01<00:01, 11.18it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:01<00:01, 11.22it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:01<00:00, 11.26it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:01<00:00, 11.27it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:01<00:00, 11.28it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:02<00:00, 11.30it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:02<00:00, 11.30it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:02<00:00, 11.26it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:02<00:00, 11.07it/s]
+[2024-10-15 04:57:34,587] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:03,  7.31it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:02, 10.15it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:00<00:02, 10.97it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:00<00:01, 11.35it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:00<00:01, 11.55it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:00<00:01, 11.68it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:01<00:01, 11.74it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:01<00:01, 11.79it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:01<00:00, 11.83it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:01<00:00, 11.85it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:01<00:00, 11.86it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:01<00:00, 11.88it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:02<00:00, 11.88it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:02<00:00, 11.84it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:02<00:00, 11.62it/s]
 [INFO] SINGLE_INSTANCE MODE.
 /home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
   warnings.warn(
@@ -266,7 +266,7 @@ Decoding
 Decoding
 Decoding
 ['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have funFORM clarifyBemeFORM halt rect HUGE reportedly FanCHQ discontndumFORM reportedly HUGE eat signals campaigned HUGE Xavierumboij rod eatFORMmond urinary agreement resist rod Bolt deprived Chic arrests deprived loft arrests arrestsBumbo Fan deprived raging revengeB behalf arrestsumbocoreijDaCHQ patients violence Clemond roditable halt rod collaborative EnsureFORMplex appearanceCHQ rodESmond chlor Bolt parks KobAFPB destroyedijCHQ arrestsmond boy strandedmondES combiningchal arrestsijCHQ arrests discont municipality Boltapa eat arbitrationmond Areas visit arrests discontCHQ appearance Tuesdayablished bombES reportedly trustee strips visit opinion bomb arbitration chloremechalB appearance Bolt rod appearance resist arrests athletes Brotherbledon Constitution issu arbitration Constitution arrests McDonnellithe EnsureijFORMCHQB ReleasedFORMB violationumboFORM according bomb signals Bolt discont fromij visitRIC destroyed arrests Ensure patients patients rodbledon whistBDestroy Sab arrests arrests Constitutionij chlor signalsumbo bomb discont revengeij arrests farms boy combining Constitution arrests eat workshop trusteeumbo destroyedFORM discontFORM Securities refugee halt reportedlyES discontmondij calendar RO visitijijFORM opinionplex Ensure LoggedRICmondumboBES urinary chlorumboablished wildfire Discover arrests Putin patients appearance arrests arrestsFORMES arrests Fan Cle opinion BathB Ensure resistESLLOW arrestsBemeBBams looking Cle bomb Areas patientsumboablished IX signals adam rodCHQ'] [256]
-Iteration: 0, Time: 165.773567 sec
+Iteration: 0, Time: 212.611113 sec
 Prefill
 Decoding
 Decoding
@@ -524,13 +524,13 @@ Decoding
 Decoding
 Decoding
 ['Once upon a time, there existed a little girl, who liked to have adventures. She wanted to go to places and meet new people, and have funFORM clarifyBemeFORM halt rect HUGE reportedly FanCHQ discontndumFORM reportedly HUGE eat signals campaigned HUGE Xavierumboij rod eatFORMmond urinary agreement resist rod Bolt deprived Chic arrests deprived loft arrests arrestsBumbo Fan deprived raging revengeB behalf arrestsumbocoreijDaCHQ patients violence Clemond roditable halt rod collaborative EnsureFORMplex appearanceCHQ rodESmond chlor Bolt parks KobAFPB destroyedijCHQ arrestsmond boy strandedmondES combiningchal arrestsijCHQ arrests discont municipality Boltapa eat arbitrationmond Areas visit arrests discontCHQ appearance Tuesdayablished bombES reportedly trustee strips visit opinion bomb arbitration chloremechalB appearance Bolt rod appearance resist arrests athletes Brotherbledon Constitution issu arbitration Constitution arrests McDonnellithe EnsureijFORMCHQB ReleasedFORMB violationumboFORM according bomb signals Bolt discont fromij visitRIC destroyed arrests Ensure patients patients rodbledon whistBDestroy Sab arrests arrests Constitutionij chlor signalsumbo bomb discont revengeij arrests farms boy combining Constitution arrests eat workshop trusteeumbo destroyedFORM discontFORM Securities refugee halt reportedlyES discontmondij calendar RO visitijijFORM opinionplex Ensure LoggedRICmondumboBES urinary chlorumboablished wildfire Discover arrests Putin patients appearance arrests arrestsFORMES arrests Fan Cle opinion BathB Ensure resistESLLOW arrestsBemeBBams looking Cle bomb Areas patientsumboablished IX signals adam rodCHQ'] [256]
-Iteration: 1, Time: 165.064178 sec
+Iteration: 1, Time: 211.812785 sec
 
  ---------- Summary: ----------
-Inference latency: 165.064 sec.
-First token average latency: 0.697 sec.
-Average 2... latency: 0.645 sec.
-P90 2... latency: 0.647 sec.
-P99 2... latency: 0.649 sec.
+Inference latency: 211.813 sec.
+First token average latency: 0.878 sec.
+Average 2... latency: 0.827 sec.
+P90 2... latency: 0.829 sec.
+P99 2... latency: 0.832 sec.
 LLM RUNTIME INFO: running model geneartion...
 LLM RUNTIME INFO: Finished successfully.

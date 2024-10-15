@@ -2,8 +2,8 @@
   warnings.warn(
 Namespace(model_id='/home/storage/opt-66b/', dtype='bfloat16', input_tokens='256', max_new_tokens=32, prompt=None, streaming=False, image_url='http://images.cocodataset.org/val2017/000000039769.jpg', config_file=None, greedy=True, ipex=True, deployment_mode=True, torch_compile=False, backend='ipex', profile=False, benchmark=True, num_iter=2, num_warmup=1, batch_size=1, token_latency=True, prefill_policy=1, decoding_policy=1, no_overlap=False, pin_weight=False, gpu_percentage=0, num_minibatch=1, enable_cxl=True)
 Warning: Cannot load xpu CCL. CCL doesn't work for XPU device
-[2024-10-14 20:13:35,988] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
-Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:03,  6.90it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:02,  9.40it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:00<00:02, 10.08it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:00<00:02, 10.35it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:00<00:01, 10.52it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:01<00:01, 10.62it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:01<00:01, 10.68it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:01<00:01, 10.72it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:01<00:01, 10.73it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:01<00:00, 10.76it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:01<00:00, 10.76it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:02<00:00, 10.77it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:02<00:00, 10.78it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:02<00:00, 10.77it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:02<00:00, 10.58it/s]
+[2024-10-15 04:54:12,295] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards:   0%|          | 0/28 [00:00<?, ?it/s]Loading checkpoint shards:   4%|▎         | 1/28 [00:00<00:03,  7.00it/s]Loading checkpoint shards:  11%|█         | 3/28 [00:00<00:02,  9.49it/s]Loading checkpoint shards:  18%|█▊        | 5/28 [00:00<00:02, 10.17it/s]Loading checkpoint shards:  25%|██▌       | 7/28 [00:00<00:02, 10.45it/s]Loading checkpoint shards:  32%|███▏      | 9/28 [00:00<00:01, 10.61it/s]Loading checkpoint shards:  39%|███▉      | 11/28 [00:01<00:01, 10.72it/s]Loading checkpoint shards:  46%|████▋     | 13/28 [00:01<00:01, 10.80it/s]Loading checkpoint shards:  54%|█████▎    | 15/28 [00:01<00:01, 10.83it/s]Loading checkpoint shards:  61%|██████    | 17/28 [00:01<00:01, 10.86it/s]Loading checkpoint shards:  68%|██████▊   | 19/28 [00:01<00:00, 10.88it/s]Loading checkpoint shards:  75%|███████▌  | 21/28 [00:01<00:00, 10.85it/s]Loading checkpoint shards:  82%|████████▏ | 23/28 [00:02<00:00, 10.86it/s]Loading checkpoint shards:  89%|████████▉ | 25/28 [00:02<00:00, 10.87it/s]Loading checkpoint shards:  96%|█████████▋| 27/28 [00:02<00:00, 10.87it/s]Loading checkpoint shards: 100%|██████████| 28/28 [00:02<00:00, 10.68it/s]
 [INFO] SINGLE_INSTANCE MODE.
 /home/ubuntu/miniconda3/envs/py310/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
   warnings.warn(
@@ -42,7 +42,7 @@ Decoding
 Decoding
 Decoding
 ["It is done, and submitted. You can play 'Survival of the Tastiest' on the Android, and on the web. Playing on the web works, but you have to simulate multiple touch for table moving and that can be a bit confusing. There is a lot I'd like to talk about. I will go through every topic, insted of making the typical what went right/wrong list. Concept Working over the theme was probably one of the hardest tasks which I had to face. Originally, I had an idea of what kind of game I wanted to develop, gameplay wise - something with a lot of enemies/actors, simple graphics, maybe set in space, controlled from a top-down view. I was confident that I could fit any theme around it. In the end, the problem with a theme like 'Evolution' in a game is that evolution is unassisted. It happens through several seemingly random mutations over time, with the most apt permutation surviving. This genetic car simulator is, in my opinion, a great example of actual evolution of a species facing a challenge. But is it a game? In a game, you need to control something to reach an objective. That control goes against what evolution is supposed to be like. ragingopotCHQ women reportedly arrestsumboumbo revenge preparedRICownFORM arrests Postchal arrests arrests resist Bath dozens arrestsFORM Constitution brightest arrests revenge boyFORMaren arrests strike"] [32]
-Iteration: 0, Time: 24.765499 sec
+Iteration: 0, Time: 30.524624 sec
 Prefill
 Decoding
 Decoding
@@ -76,13 +76,13 @@ Decoding
 Decoding
 Decoding
 ["It is done, and submitted. You can play 'Survival of the Tastiest' on the Android, and on the web. Playing on the web works, but you have to simulate multiple touch for table moving and that can be a bit confusing. There is a lot I'd like to talk about. I will go through every topic, insted of making the typical what went right/wrong list. Concept Working over the theme was probably one of the hardest tasks which I had to face. Originally, I had an idea of what kind of game I wanted to develop, gameplay wise - something with a lot of enemies/actors, simple graphics, maybe set in space, controlled from a top-down view. I was confident that I could fit any theme around it. In the end, the problem with a theme like 'Evolution' in a game is that evolution is unassisted. It happens through several seemingly random mutations over time, with the most apt permutation surviving. This genetic car simulator is, in my opinion, a great example of actual evolution of a species facing a challenge. But is it a game? In a game, you need to control something to reach an objective. That control goes against what evolution is supposed to be like. ragingopotCHQ women reportedly arrestsumboumbo revenge preparedRICownFORM arrests Postchal arrests arrests resist Bath dozens arrestsFORM Constitution brightest arrests revenge boyFORMaren arrests strike"] [32]
-Iteration: 1, Time: 24.603752 sec
+Iteration: 1, Time: 30.136173 sec
 
  ---------- Summary: ----------
-Inference latency: 24.604 sec.
-First token average latency: 4.218 sec.
-Average 2... latency: 0.657 sec.
-P90 2... latency: 0.657 sec.
-P99 2... latency: 0.694 sec.
+Inference latency: 30.136 sec.
+First token average latency: 4.405 sec.
+Average 2... latency: 0.830 sec.
+P90 2... latency: 0.832 sec.
+P99 2... latency: 0.836 sec.
 LLM RUNTIME INFO: running model geneartion...
 LLM RUNTIME INFO: Finished successfully.
